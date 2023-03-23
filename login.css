@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(water2.jpg);
+    background-size: 100% 740px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.contain {
+    width: 300px;
+    height: 400px;
+    background-color: #191825;
+    margin-left: 39%;
+    margin-top: 8%;
+    text-align: center;
+    color: white;
+}
+
+.contain h1 {
+    font-size: 36px;
+}
+
+.contain .text {
+    position: relative;
+    top: 7%;
+}
+
+.inp1 {
+    border: none;
+    background-color: #191825;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: aliceblue;
+
+}
+
+.inp2 {
+    border: none;
+    background-color: #191825;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: aliceblue;
+
+}
+
+.text button {
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: #191825;
+    border: none;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 3px solid #EA5455;
+    color: #EA5455;
+    font-size: 20px;
+    background-color: black;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+p span {
+    color: aqua;
+    cursor: pointer;
+}
